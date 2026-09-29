@@ -16,21 +16,34 @@ El objetivo del reporte es proporcionar a ejecutivos y analistas del sector mine
 
 ### 1. Dashboard (Overview Ejecutivo)
 Vista principal diseñada para la supervisión macro de los indicadores de producción nacional.
+
+![Overview Ejecutivo](assets/preview-dashboard.png)
+
 * **Tarjetas KPI Consolidadas**: Indicadores de producción acumulada en Toneladas Métricas Finas (TMF) para Hierro (Fe), Cobre (Cu), Plata (Ag) y Oro (Au), comparados frente al mismo periodo del año anterior ($YoY$).
 * **Tendencia Anual de Producción**: Evolución histórica del volumen total extraído durante el periodo 2021-2026.
 * **Desglose por Proceso**: Distribución del volumen según el método extractivo utilizado (Flotación, Gravimetría y Lixiviación).
 * **Participación por Mineral**: Porcentaje de representación de los principales minerales extraídos en el volumen total.
 * **Distribución Geográfica y Representatividad**: Mapa regional interactivo por departamentos y matriz resumida con volúmenes por titular minero.
 
+---
+
 ### 2. Analytics (Análisis de Variaciones)
 Módulo analítico especializado en la evaluación de tendencias, estacionalidad y variaciones intermensuales.
+
+![Análisis de Variaciones](assets/preview-analytics.png)
+
 * **Métricas Comparativas ($YoY$)**: Análisis de variación porcentual acumulada respecto al periodo anterior para cada mineral.
 * **Curva de Producción Mes a Mes**: Comparativa temporal del volumen de producción actual frente al año anterior (*LY - Last Year*).
 * **Gráfico Cascada de Variación Mensual**: Diagrama de variaciones porcentuales intermensuales para la identificación de desviaciones en la extracción.
 * **Evolución por Mineral**: Desglose dinámico de la participación de los minerales a lo largo de la línea temporal.
 
+---
+
 ### 3. Titulares (Análisis por Empresas Mineras)
 Módulo orientado a la evaluación de la concentración del mercado y el desempeño individual de las empresas operadoras.
+
+![Análisis por Titulares Mineros](assets/preview-titulares.png)
+
 * **Indicadores Principales de Mercado**:
   * **Líder en Producción**: Identificación del principal productor nacional (ej. Shougang Hierro Perú S.A.A.).
   * **Mayor Crecimiento**: Empresa con mayor incremento porcentual en producción respecto al año anterior (ej. Sierra Minera Caraz S.A.C.).
@@ -45,15 +58,15 @@ Módulo orientado a la evaluación de la concentración del mercado y el desempe
 La interfaz visual fue concebida y maquetada previamente en Figma, aplicando el paradigma de diseño **Bento Grid** para lograr una densidad de información limpia, estructurada y modular.
 
 ### Especificaciones del Tema JSON (`src/theme-minem.json`)
-El reporte implementa la paleta institucional `MINEM_Bento_Executive_Slate`:
+El reporte implementa la paleta institucional `MINEM_Bento_Executive_Slate`[cite: 5]:
 * **Paleta de Colores**:
-  * Fondo Primario / Encabezados: Dark Navy (`#0F172A`)
-  * Acento Cobre / Destacados: Naranja Cobre (`#D97736`)
-  * Fondo General de Lienzo: Slate Claro (`#F8FAFC`)
-  * Indicadores de Variación: Verde (`#059669`), Azul (`#2563EB`), Ámbar (`#D97706`)
+  * Fondo Primario / Encabezados: Dark Navy (`#0F172A`)[cite: 5]
+  * Acento Cobre / Destacados: Naranja Cobre (`#D97736`)[cite: 5]
+  * Fondo General de Lienzo: Slate Claro (`#F8FAFC`)[cite: 5]
+  * Indicadores de Variación: Verde (`#059669`), Azul (`#2563EB`), Ámbar (`#D97706`)[cite: 5]
 * **Propiedades Visuales**:
-  * Tarjetas contenedoras con bordes de radio suave (`radius: 12`) y sombra personalizada (`dropShadow`).
-  * Jerarquía tipográfica estandarizada en la familia `Segoe UI`.
+  * Tarjetas contenedoras con bordes de radio suave (`radius: 12`) y sombra personalizada (`dropShadow`)[cite: 5].
+  * Jerarquía tipográfica estandarizada en la familia `Segoe UI`[cite: 5].
 
 ---
 
