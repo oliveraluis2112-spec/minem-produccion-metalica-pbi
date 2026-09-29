@@ -75,21 +75,21 @@ El reporte implementa la paleta institucional `MINEM_Bento_Executive_Slate`:
 ```text
 minem-produccion-metalica-pbi/
 │
-├── assets/                      # Capturas de pantalla para documentación
-│   ├── preview-dashboard.png    # Captura de la vista Dashboard
-│   ├── preview-analytics.png    # Captura de la vista Analytics
-│   └── preview-titulares.png    # Captura de la vista Titulares
+├── assets/
+│   ├── preview-dashboard.png
+│   ├── preview-analytics.png
+│   └── preview-titulares.png
 │
-├── figma/                       # Lienzos de diseño maquetados en Figma
+├── figma/
 │   ├── canvas-dashboard.png
 │   ├── canvas-analytics.png
 │   └── canvas-titulares.png
 │
-├── src/                         # Archivos fuente del reporte
-│   ├── theme-minem.json         # Tema personalizado en formato JSON
-│   └── produccion_metalica.pbix # Archivo de proyecto Power BI
+├── src/
+│   ├── theme-minem.json
+│   └── produccion_metalica.pbix
 │
-├── data/                        # Datasets procesados
+├── data/
 │   └── Produccion_Metalica_Consolidado_2021_2026.csv
 │
-└── README.md                    # Documentación técnica del proyecto
+└── README.md
